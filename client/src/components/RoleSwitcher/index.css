@@ -1,0 +1,157 @@
+.role-switcher-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 99999;
+  font-family: inherit;
+}
+
+.role-switcher-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #96281B 0%, #C0392B 100%);
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  padding: 10px 18px;
+  border-radius: 50px;
+  box-shadow: 0 8px 24px rgba(30, 58, 138, 0.35);
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.role-switcher-toggle:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(30, 58, 138, 0.45);
+}
+
+.switcher-icon {
+  font-size: 16px;
+}
+
+.role-switcher-modal {
+  position: absolute;
+  bottom: 55px;
+  right: 0;
+  width: 320px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.05);
+  padding: 18px;
+  animation: slide-up-fade 0.2s ease-out;
+}
+
+@keyframes slide-up-fade {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.role-switcher-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f1f5f9;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.role-switcher-header h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.role-close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #94a3b8;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.role-switcher-desc {
+  font-size: 12px;
+  color: #64748b;
+  margin: 0 0 12px 0;
+  line-height: 1.4;
+}
+
+.role-buttons-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 380px;
+  overflow-y: auto;
+}
+
+.role-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.role-btn:hover {
+  background: #f1f5f9;
+  border-color: var(--role-accent, #C0392B);
+  transform: translateX(3px);
+}
+
+.role-btn.active {
+  background: #eff6ff;
+  border-color: #C0392B;
+}
+
+.role-btn-icon {
+  font-size: 20px;
+}
+
+.role-btn-text strong {
+  display: block;
+  font-size: 13px;
+  color: #0f172a;
+}
+
+.role-btn-text span {
+  display: block;
+  font-size: 11px;
+  color: #64748b;
+}
+
+.active-dot {
+  position: absolute;
+  right: 12px;
+  width: 8px;
+  height: 8px;
+  background-color: #C0392B;
+  border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+  .role-switcher-container {
+    bottom: 16px;
+    right: 16px;
+  }
+  .role-switcher-toggle {
+    padding: 7px 12px;
+    font-size: 11.5px;
+  }
+  .role-switcher-modal {
+    width: calc(100vw - 32px);
+    max-width: 300px;
+    right: 0;
+    bottom: 48px;
+    padding: 14px;
+  }
+}

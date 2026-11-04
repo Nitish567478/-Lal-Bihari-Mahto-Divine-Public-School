@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Fixed Navbar Offset */
+.app-root {
+  padding-top: 74px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.site-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.96);
+  animation: site-loader-fade-in 180ms ease-out both;
+}
+
+.site-loader-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: #334155;
+  text-align: center;
+}
+
+.site-loader-logo {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 8px 26px rgba(17, 24, 39, 0.1);
+}
+
+.site-loader-spinner {
+  width: 34px;
+  height: 34px;
+  margin-top: 7px;
+  border: 3px solid #e8edf4;
+  border-top-color: var(--primary, #c0392b);
+  border-right-color: var(--accent, #f59e0b);
+  border-radius: 50%;
+  animation: site-loader-spin 750ms linear infinite;
+}
+
+.site-loader-card strong {
+  color: #253451;
+  font-family: var(--font-heading, sans-serif);
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+}
+
+.site-loader-caption {
+  color: #78859a;
+  font-size: 0.8rem;
+}
+
+@keyframes site-loader-spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes site-loader-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-loader {
+    animation: none;
+  }
+
+  .site-loader-spinner {
+    animation-duration: 1.8s;
+  }
+}
+
+/* Standalone / Portal Pages without Site Header should not have top padding offset */
+.app-root.portal-route-root,
+.app-root:has(.admin-portal),
+.app-root:has(.accountant-portal-layout),
+.app-root:has(.teacher-portal-layout),
+.app-root:has(.login-page-wrapper) {
+  padding-top: 0 !important;
+}
+
+/* Global Responsive Base Helpers */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Table Scroll Container */
+.table-responsive-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 991px) {
+  .app-root:not(.portal-route-root) {
+    padding-top: 68px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-root:not(.portal-route-root) {
+    padding-top: 62px;
+  }
+}

@@ -1,0 +1,659 @@
+/* ========================================================================= */
+/* LAL BIHARI MAHTO DIVINE PUBLIC SCHOOL - ACADEMIC PAGE STYLING             */
+/* Clean, Modern, Simple UI/UX (Scoped to .academic-page-root)               */
+/* ========================================================================= */
+
+.academic-page-root {
+  width: 100%;
+  background-color: #f8fafc;
+  color: #1e293b;
+  font-family: inherit;
+  overflow-x: hidden;
+}
+
+/* Fluid Container */
+.academic-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+/* Section Common Header */
+.academic-section-header {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 38px auto;
+}
+
+.academic-sub-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  background: rgba(31, 41, 55, 0.08);
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+.academic-section-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 10px 0;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.academic-section-subtitle {
+  font-size: 15px;
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ========================================================================= */
+/* 1. HERO BANNER                                                            */
+/* ========================================================================= */
+.academic-hero {
+  background: linear-gradient(135deg, #111827 0%, #334155 60%, #96281B 100%);
+  color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.academic-hero-inner {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.academic-hero-badge {
+  display: inline-block;
+  font-size: 11.5px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  background: rgba(192, 57, 43, 0.2);
+  color: #F59E0B;
+  border: 1px solid rgba(192, 57, 43, 0.35);
+  padding: 5px 14px;
+  border-radius: 9999px;
+  margin-bottom: 16px;
+}
+
+.academic-hero-title {
+  font-size: 34px;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 14px 0;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+.academic-hero-lead {
+  font-size: 15.5px;
+  color: #cbd5e1;
+  max-width: 720px;
+  margin: 0 auto 26px auto;
+  line-height: 1.65;
+}
+
+.academic-quick-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-pill-link {
+  padding: 8px 18px;
+  border-radius: 9999px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #e2e8f0;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.2s ease;
+}
+
+.hero-pill-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.hero-pill-link.highlight {
+  background: #F59E0B;
+  color: #111827;
+  border-color: #F59E0B;
+  font-weight: 700;
+}
+
+.hero-pill-link.highlight:hover {
+  background: #F59E0B;
+  color: #111827;
+}
+
+/* ========================================================================= */
+/* 2. ACADEMIC WINGS (4 PATHWAYS)                                            */
+/* ========================================================================= */
+.academic-wings-section {
+  padding: 60px 0;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.wings-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.wing-display-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.25s ease;
+}
+
+.wing-display-card:hover {
+  background: #ffffff;
+  border-color: #cbd5e1;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(31, 41, 55, 0.08);
+}
+
+.wing-display-card.featured {
+  border-top: 4px solid #F59E0B;
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgba(31, 41, 55, 0.04);
+}
+
+.wing-card-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.wing-icon-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.wing-icon-circle.red-bg { background: #FEF2F2; }
+.wing-icon-circle.blue-bg { background: #FEF2F2; }
+.wing-icon-circle.green-bg { background: #dcfce7; }
+.wing-icon-circle.gold-bg { background: #FEF2F2; }
+
+.wing-class-tag {
+  font-size: 11px;
+  font-weight: 700;
+  color: #C0392B;
+  background: #FEF2F2;
+  padding: 3px 9px;
+  border-radius: 9999px;
+}
+
+.wing-class-tag.gold {
+  color: #92400e;
+  background: #FEF2F2;
+}
+
+.wing-card-title {
+  font-size: 17.5px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 8px 0;
+}
+
+.wing-card-desc {
+  font-size: 13px;
+  color: #64748b;
+  line-height: 1.55;
+  margin: 0 0 16px 0;
+}
+
+.wing-features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-grow: 1;
+}
+
+.wing-features-list li {
+  font-size: 12.5px;
+  color: #475569;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  line-height: 1.4;
+}
+
+.wing-features-list li span {
+  color: #16a34a;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.wing-action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #1e293b;
+  text-decoration: none;
+  padding: 10px 14px;
+  background: #ffffff;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  margin-top: auto;
+}
+
+.wing-action-btn:hover {
+  border-color: #334155;
+  background: #334155;
+  color: #ffffff;
+}
+
+/* ========================================================================= */
+/* 3. CORE SUBJECT DOMAINS                                                   */
+/* ========================================================================= */
+.academic-subjects-section {
+  padding: 60px 0;
+  background: #f8fafc;
+}
+
+.subjects-grid-8 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.subject-box {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 22px 18px;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.subject-box:hover {
+  border-color: #cbd5e1;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(31, 41, 55, 0.05);
+}
+
+.subject-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.subject-icon.blue { background: #FEF2F2; }
+.subject-icon.green { background: #dcfce7; }
+.subject-icon.purple { background: #f3e8ff; }
+.subject-icon.amber { background: #FEF2F2; }
+.subject-icon.teal { background: #ccfbf1; }
+.subject-icon.red { background: #FEF2F2; }
+.subject-icon.indigo { background: #e0e7ff; }
+.subject-icon.orange { background: #ffedd5; }
+
+.subject-box h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 6px 0;
+}
+
+.subject-box p {
+  font-size: 12.5px;
+  color: #64748b;
+  line-height: 1.5;
+  margin: 0;
+  flex-grow: 1;
+}
+
+/* ========================================================================= */
+/* 4. ASSESSMENT & EVALUATION POLICY                                         */
+/* ========================================================================= */
+.academic-assessment-section {
+  padding: 60px 0;
+  background: #ffffff;
+  border-top: 1px solid #e2e8f0;
+}
+
+.assessment-split-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.assessment-intro-p {
+  font-size: 15px;
+  color: #475569;
+  line-height: 1.6;
+  margin: 0 0 24px 0;
+}
+
+.assessment-steps-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.assessment-step-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px 16px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  transition: border-color 0.2s ease;
+}
+
+.assessment-step-card:hover {
+  border-color: #cbd5e1;
+  background: #ffffff;
+}
+
+.step-icon-box {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.step-icon-box.green { background: #dcfce7; }
+.step-icon-box.blue { background: #FEF2F2; }
+.step-icon-box.purple { background: #f3e8ff; }
+.step-icon-box.amber { background: #FEF2F2; }
+
+.assessment-step-card h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 3px 0;
+}
+
+.assessment-step-card p {
+  font-size: 12.5px;
+  color: #64748b;
+  margin: 0;
+  line-height: 1.45;
+}
+
+.assessment-deep-link {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #96281B;
+  text-decoration: none;
+}
+
+.assessment-deep-link:hover {
+  color: #7B241C;
+  text-decoration: underline;
+}
+
+/* Right Visual Column */
+.assessment-card-wrapper {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(31, 41, 55, 0.05);
+}
+
+.assessment-image-box {
+  position: relative;
+  height: 240px;
+  overflow: hidden;
+}
+
+.assessment-image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-overlay-badge {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: rgba(17, 24, 39, 0.88);
+  color: #F59E0B;
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 6px;
+}
+
+.academic-key-pillars-box {
+  padding: 22px 20px;
+}
+
+.pillars-box-title {
+  font-size: 15px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 14px 0;
+  text-align: center;
+}
+
+.pillars-mini-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.pillar-metric {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+}
+
+.p-num {
+  display: block;
+  font-size: 18px;
+  font-weight: 900;
+  color: #0f172a;
+  line-height: 1.2;
+}
+
+.p-label {
+  display: block;
+  font-size: 11px;
+  color: #64748b;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+/* ========================================================================= */
+/* 5. ADMISSIONS CALL TO ACTION BANNER                                       */
+/* ========================================================================= */
+.academic-cta-section {
+  padding: 50px 0 65px 0;
+  background: #f8fafc;
+}
+
+.academic-cta-banner {
+  background: linear-gradient(135deg, #111827 0%, #334155 60%, #96281B 100%);
+  border-radius: 16px;
+  padding: 36px 32px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  box-shadow: 0 12px 30px rgba(31, 41, 55, 0.12);
+  flex-wrap: wrap;
+}
+
+.academic-cta-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: #F59E0B;
+  background: rgba(192, 57, 43, 0.15);
+  padding: 4px 10px;
+  border-radius: 9999px;
+  margin-bottom: 10px;
+}
+
+.academic-cta-text h3 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 8px 0;
+}
+
+.academic-cta-text p {
+  font-size: 13.5px;
+  color: #cbd5e1;
+  margin: 0;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.academic-cta-actions {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.cta-btn-gold {
+  background: #F59E0B;
+  color: #111827;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 13.5px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.cta-btn-gold:hover {
+  background: #F59E0B;
+  transform: translateY(-2px);
+}
+
+.cta-btn-ghost {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 13.5px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.cta-btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #ffffff;
+}
+
+/* ========================================================================= */
+/* 6. RESPONSIVE DESIGN BREAKPOINTS                                          */
+/* ========================================================================= */
+@media (max-width: 1024px) {
+  .wings-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .subjects-grid-8 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .assessment-split-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .academic-hero {
+    padding: 48px 16px;
+  }
+
+  .academic-hero-title {
+    font-size: 26px;
+  }
+
+  .academic-section-title {
+    font-size: 22px;
+  }
+
+  .academic-wings-section,
+  .academic-subjects-section,
+  .academic-assessment-section {
+    padding: 48px 0;
+  }
+
+  .academic-cta-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px 22px;
+  }
+
+  .academic-cta-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .cta-btn-gold,
+  .cta-btn-ghost {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 580px) {
+  .wings-cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .subjects-grid-8 {
+    grid-template-columns: 1fr;
+  }
+
+  .academic-container {
+    padding: 0 16px;
+  }
+}

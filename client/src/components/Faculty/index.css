@@ -1,0 +1,59 @@
+.faculty-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.faculty-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.faculty-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.faculty-card {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.faculty-card:hover {
+  transform: translateY(-5px);
+}
+
+.faculty-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.faculty-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.faculty-designation,
+.faculty-subject,
+.faculty-email {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.2rem;
+}
+.faculty-email a {
+  color: #007BFF;
+  text-decoration: none;
+}
+.faculty-email a:hover {
+  text-decoration: underline;
+}

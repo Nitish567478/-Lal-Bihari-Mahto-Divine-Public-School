@@ -1,0 +1,646 @@
+/* ========================================================================= */
+/* LBMDPS MASTER SITE HEADER - WORLD CLASS UI/UX STYLING                     */
+/* ========================================================================= */
+
+.site-header-master {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  font-family: var(--font-body, 'Inter', sans-serif);
+  background: #ffffff;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.08);
+}
+
+/* Fluid Full-Width Container */
+.header-fluid-container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 28px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Main Navigation Bar */
+.header-main-nav {
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  padding: 10px 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.header-main-nav::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #C0392B 0%, #F59E0B 50%, #C0392B 100%);
+}
+
+.header-main-nav.is-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  padding: 8px 0;
+}
+
+.nav-flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Brand Anchor */
+.school-brand-anchor {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.school-brand-anchor:hover {
+  transform: translateY(-1px);
+}
+
+.school-crest-img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2.5px solid #F59E0B;
+  box-shadow: 0 4px 10px rgba(192, 57, 43, 0.18);
+  transition: all 0.3s ease;
+}
+
+.header-main-nav.is-sticky .school-crest-img {
+  width: 42px;
+  height: 42px;
+}
+
+.school-brand-titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-h1 {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-size: 17px;
+  font-weight: 900;
+  color: #0f172a;
+  margin: 0;
+  letter-spacing: 0.3px;
+  line-height: 1.15;
+}
+
+.brand-h2 {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-size: 12.5px;
+  font-weight: 800;
+  color: #C0392B;
+  margin: 1px 0 0 0;
+  letter-spacing: 0.2px;
+}
+
+.brand-motto {
+  font-size: 9.5px;
+  color: #64748b;
+  margin: 2px 0 0 0;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+/* Navigation Links */
+.main-nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 4px;
+  flex-wrap: nowrap;
+}
+
+.nav-links-list > li > a {
+  text-decoration: none;
+  color: #374151;
+  font-size: 13.5px;
+  font-weight: 700;
+  padding: 7px 11px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+  position: relative;
+}
+
+.nav-links-list > li > a:hover {
+  color: #C0392B;
+  background: #FEF2F2;
+}
+
+.nav-links-list > li > a.nav-active {
+  color: #C0392B;
+  background: #FEF2F2;
+  border: 1px solid #FECACA;
+}
+
+/* Dropdown Component */
+.nav-dropdown-item {
+  position: relative;
+}
+
+.dropdown-trigger {
+  color: #374151;
+  font-size: 13.5px;
+  font-weight: 700;
+  padding: 7px 11px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.dropdown-trigger:hover,
+.nav-dropdown-item:hover .dropdown-trigger,
+.nav-dropdown-item.dropdown-open .dropdown-trigger {
+  color: #C0392B;
+  background: #FEF2F2;
+}
+
+.caret-arrow {
+  font-size: 10px;
+  color: #9CA3AF;
+  transition: transform 0.2s ease;
+}
+
+.nav-dropdown-item:hover .caret-arrow,
+.nav-dropdown-item.dropdown-open .caret-arrow {
+  transform: rotate(180deg);
+  color: #F59E0B;
+}
+
+.dropdown-menu-list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ffffff;
+  min-width: 250px;
+  box-shadow: 0 16px 36px -4px rgba(31, 41, 55, 0.16), 0 4px 12px rgba(0,0,0,0.06);
+  border-radius: 12px;
+  padding: 8px;
+  list-style: none;
+  margin: 8px 0 0 0;
+  border: 1px solid #e2e8f0;
+  z-index: 1100;
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.nav-dropdown-item:hover .dropdown-menu-list,
+.nav-dropdown-item.dropdown-open .dropdown-menu-list {
+  display: block;
+}
+
+.dropdown-menu-list li a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 12px;
+  color: #374151;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.dropdown-menu-list li a:hover {
+  background: #FEF2F2;
+  color: #C0392B;
+  padding-left: 16px;
+  font-weight: 700;
+}
+
+/* ========================================================================= */
+/* STUDENT & PARENT PORTAL LINKS                                             */
+/* ========================================================================= */
+.nav-portal-group-item {
+  display: flex;
+  align-items: center;
+  margin: 0 4px;
+}
+
+.nav-portal-pills {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.header-portal-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 11px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 20px;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.header-portal-pill .portal-icon {
+  font-size: 13px;
+  line-height: 1;
+}
+
+.header-portal-pill.student-portal-pill {
+  background: #f0f9ff;
+  color: #0369a1 !important;
+  border: 1px solid #bae6fd;
+  box-shadow: 0 1px 3px rgba(3, 105, 161, 0.08);
+}
+
+.header-portal-pill.student-portal-pill:hover {
+  background: #0284c7;
+  color: #ffffff !important;
+  border-color: #0284c7;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(2, 132, 199, 0.25);
+}
+
+.header-portal-pill.parent-portal-pill {
+  background: #fff1f2;
+  color: #be123c !important;
+  border: 1px solid #fecdd3;
+  box-shadow: 0 1px 3px rgba(190, 18, 60, 0.08);
+}
+
+.header-portal-pill.parent-portal-pill:hover {
+  background: #e11d48;
+  color: #ffffff !important;
+  border-color: #e11d48;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(225, 29, 72, 0.25);
+}
+
+.header-portal-pill.staff-portal-pill {
+  background: #f8fafc;
+  color: #334155 !important;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.header-portal-pill.staff-portal-pill:hover {
+  background: #0f172a;
+  color: #ffffff !important;
+  border-color: #0f172a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.25);
+}
+
+/* ========================================================================= */
+/* HEADER APPLY ONLINE CTA BUTTON                                            */
+/* ========================================================================= */
+.nav-cta-item {
+  margin-left: 6px;
+}
+
+.nav-apply-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #C0392B 0%, #96281B 100%);
+  color: #F59E0B !important;
+  font-size: 13px;
+  font-weight: 800;
+  padding: 8px 18px;
+  border-radius: 50px;
+  border: 1.5px solid #F59E0B;
+  box-shadow: 0 4px 14px rgba(192, 57, 43, 0.35);
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+  letter-spacing: 0.3px;
+}
+
+.nav-apply-btn:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 22px rgba(192, 57, 43, 0.5);
+  background: linear-gradient(135deg, #7B241C 0%, #C0392B 100%);
+}
+
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  background: #F59E0B;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #F59E0B;
+  animation: pulseGlow 1.5s infinite;
+}
+
+/* ========================================================================= */
+/* ADMISSION APPLICATION POPUP MODAL                                         */
+/* ========================================================================= */
+.premium-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(17, 24, 39, 0.75);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 20px;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.premium-modal-content {
+  background: #ffffff;
+  width: 100%;
+  max-width: 680px;
+  border-radius: 16px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.3);
+  border: 2px solid #C0392B;
+  overflow: hidden;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-header {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  padding: 18px 24px;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-x {
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #64748b;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.close-x:hover {
+  background: #FEF2F2;
+  color: #C0392B;
+  border-color: #fca5a5;
+  transform: rotate(90deg);
+}
+
+.modal-body {
+  padding: 24px;
+  overflow-y: auto;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal-form .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.modal-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.modal-form input,
+.modal-form select,
+.modal-form textarea {
+  padding: 10px 14px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 13.5px;
+  font-family: inherit;
+  background: #f8fafc;
+  color: #0f172a;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.modal-form input:focus,
+.modal-form select:focus,
+.modal-form textarea:focus {
+  border-color: #C0392B;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.form-actions {
+  margin-top: 8px;
+}
+
+.submit-inquiry {
+  width: 100%;
+  background: linear-gradient(135deg, #C0392B 0%, #96281B 100%);
+  color: #F59E0B;
+  border: 1.5px solid #F59E0B;
+  padding: 14px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(192, 57, 43, 0.30);
+  transition: all 0.25s ease;
+}
+
+.submit-inquiry:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(245, 158, 11, 0.45);
+  background: linear-gradient(135deg, #7B241C 0%, #C0392B 100%);
+}
+
+/* Mobile Toggle Hamburger */
+.mobile-toggle-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 28px;
+  height: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1200;
+}
+
+.mobile-toggle-btn span {
+  width: 28px;
+  height: 3px;
+  background: #C0392B;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+}
+
+.mobile-toggle-btn.open span:first-child { transform: rotate(45deg); }
+.mobile-toggle-btn.open span:nth-child(2) { opacity: 0; transform: translateX(20px); }
+.mobile-toggle-btn.open span:nth-child(3) { transform: rotate(-45deg); }
+
+/* Mobile Drawer Backdrop Overlay */
+.mobile-drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(17, 24, 39, 0.65);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 1120;
+  animation: fadeIn 0.2s ease-out;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1100px) {
+  .header-fluid-container { padding: 0 16px; }
+  .brand-h1 { font-size: 15px; }
+  .brand-h2 { font-size: 11px; }
+  .nav-links-list > li > a, .dropdown-trigger { font-size: 12.5px; padding: 6px 8px; }
+}
+
+@media (max-width: 900px) {
+  .mobile-toggle-btn { display: flex; }
+  .main-nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    max-width: 86vw;
+    height: 100vh;
+    background: #ffffff;
+    box-shadow: -8px 0 30px rgba(0, 0, 0, 0.2);
+    padding: 70px 20px 30px;
+    transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow-y: auto;
+    z-index: 1150;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .main-nav-menu.open { right: 0; }
+  .nav-links-list { flex-direction: column; align-items: stretch; gap: 8px; }
+  .nav-links-list > li > a, .dropdown-trigger { font-size: 14px; padding: 10px 14px; width: 100%; justify-content: space-between; }
+  .dropdown-menu-list { position: static; display: none; box-shadow: none; border: none; background: #f8fafc; margin: 4px 0 8px 12px; padding: 4px; }
+  .nav-dropdown-item.dropdown-open .dropdown-menu-list { display: block; }
+  .nav-portal-group-item {
+    margin: 8px 0 0;
+    padding-top: 12px;
+    border-top: 1px dashed #e2e8f0;
+    width: 100%;
+  }
+  .nav-portal-pills {
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+  }
+  .header-portal-pill {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 14px;
+    font-size: 13.5px;
+    border-radius: 8px;
+  }
+  .modal-form .form-row { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .header-fluid-container { padding: 0 14px; }
+  .premium-modal-overlay { padding: 12px; }
+  .modal-header { padding: 14px 16px; }
+  .modal-header h3 { font-size: 15px !important; }
+  .modal-sub { font-size: 10px !important; }
+  .modal-body { padding: 18px 14px; }
+  .submit-inquiry { padding: 12px 16px; font-size: 14px; }
+}
+
+@media (max-width: 480px) {
+  .header-fluid-container { padding: 0 10px; }
+  .school-crest-img {
+    width: 38px;
+    height: 38px;
+    border-width: 2px;
+  }
+  .brand-h1 {
+    font-size: 12.5px;
+    letter-spacing: 0;
+  }
+  .brand-h2 {
+    font-size: 9.5px;
+    letter-spacing: 0;
+  }
+  .brand-motto {
+    font-size: 7.8px;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .school-brand-anchor {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 360px) {
+  .school-crest-img {
+    width: 32px;
+    height: 32px;
+  }
+  .brand-h1 {
+    font-size: 11px;
+  }
+  .brand-h2 {
+    font-size: 8.5px;
+  }
+  .brand-motto {
+    display: none;
+  }
+}

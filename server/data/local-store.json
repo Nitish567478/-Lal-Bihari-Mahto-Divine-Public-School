@@ -1,0 +1,2303 @@
+{
+  "content": {
+    "teachers": {
+      "items": [
+        {
+          "id": "record-1780815347758",
+          "name": "Nitish",
+          "subject": "Computer Science",
+          "phone": "9876543210",
+          "email": "asdf@gmail.com",
+          "qualification": "B.Tech"
+        }
+      ]
+    },
+    "home-hero": {
+      "title": "Committed to Excellence in Education",
+      "description": "Lal Bihari Mahto Divine Public School, Naitand, has been a beacon of quality education for nearly three decades.",
+      "stats": [
+        {
+          "number": "1500+",
+          "name": "Students"
+        },
+        {
+          "number": "100%",
+          "name": "Success Rate"
+        },
+        {
+          "number": "15+",
+          "name": "Expert Teachers"
+        },
+        {
+          "number": "15+",
+          "name": "Years of Excellence"
+        }
+      ],
+      "features": [
+        "CBSE Affiliated with Modern Curriculum",
+        "Experienced and Dedicated Faculty",
+        "State-of-the-Art Infrastructure",
+        "Holistic Development Programs"
+      ]
+    },
+    "marksheets": {
+      "items": [
+        {
+          "id": "record-1780815247878",
+          "studentName": "nitish",
+          "className": "8",
+          "subject": "math",
+          "marks": "99",
+          "grade": "A+"
+        },
+        {
+          "id": "record-1780821086591-2c70b458e32fe8",
+          "studentName": "nitish",
+          "className": "8",
+          "subject": "english",
+          "marks": "80",
+          "grade": "B"
+        },
+        {
+          "id": "record-1780821094946-a349b334795c08",
+          "studentName": "nitish",
+          "className": "8",
+          "subject": "hindi",
+          "marks": "90",
+          "grade": "A"
+        }
+      ]
+    },
+    "subjects": {
+      "items": []
+    },
+    "hotels": {
+      "title": "School Hotel & Guest House",
+      "description": "Manage hotel listings and update images for the hospitality section.",
+      "cards": [
+        {
+          "title": "Campus Guest House",
+          "description": "Comfortable rooms available for parents and visiting guests.",
+          "imageUrl": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=900&q=60"
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Photo Gallery",
+      "description": "Update gallery images and featured school event banners.",
+      "images": [
+        "https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?auto=format&fit=crop&w=900&q=60",
+        "https://images.unsplash.com/photo-1496307653780-42ee777d4833?auto=format&fit=crop&w=900&q=60"
+      ]
+    },
+    "attendance": {
+      "items": [
+        {
+          "id": "record-1780820507974-052bc1ac9f9f88",
+          "date": "2026-05-31",
+          "className": "U.K.G",
+          "studentName": "nitish",
+          "present": true,
+          "absent": false,
+          "remarks": ""
+        }
+      ]
+    },
+    "admitCards": {
+      "items": [
+        {
+          "id": "admit-1787993356106",
+          "applicationId": "local-1780815632593",
+          "admitCardNo": "LBMDPS-2026-9549",
+          "studentName": "Nitish",
+          "parentName": "Basant Yadav",
+          "className": "nursery",
+          "rollNo": "954",
+          "examName": "CBSE Annual Examination 2026-2027",
+          "centerName": "LBMDPS Examination Center, Naitand, Giridih",
+          "phone": "8102438366",
+          "dob": "2018-05-07",
+          "address": "lal lajpath nager argora",
+          "photo": "1780815632564-580546190-WhatsApp_Image_2026-06-06_at_6.17.38_PM__1_.jpeg",
+          "status": "Issued",
+          "dateOfIssue": "8/29/2026",
+          "schedule": [
+            {
+              "date": "15/03/2026 (Mon)",
+              "time": "09:00 AM - 12:00 PM",
+              "code": "041",
+              "subject": "Mathematics",
+              "room": "Hall A"
+            },
+            {
+              "date": "17/03/2026 (Wed)",
+              "time": "09:00 AM - 12:00 PM",
+              "code": "086",
+              "subject": "Science",
+              "room": "Hall A"
+            },
+            {
+              "date": "19/03/2026 (Fri)",
+              "time": "09:00 AM - 12:00 PM",
+              "code": "184",
+              "subject": "English Language & Lit.",
+              "room": "Hall A"
+            },
+            {
+              "date": "22/03/2026 (Mon)",
+              "time": "09:00 AM - 12:00 PM",
+              "code": "085",
+              "subject": "Hindi Course-A",
+              "room": "Hall A"
+            },
+            {
+              "date": "24/03/2026 (Wed)",
+              "time": "09:00 AM - 12:00 PM",
+              "code": "087",
+              "subject": "Social Science",
+              "room": "Hall A"
+            },
+            {
+              "date": "26/03/2026 (Fri)",
+              "time": "09:00 AM - 12:00 PM",
+              "code": "165",
+              "subject": "Computer Applications",
+              "room": "Lab 1"
+            }
+          ],
+          "createdAt": "2026-08-29T08:49:16.106Z"
+        }
+      ]
+    }
+  },
+  "applications": [
+    {
+      "_id": "local-1780815632593",
+      "studentName": "Nitish",
+      "dob": "2018-05-07",
+      "classApplying": "nursery",
+      "previousSchool": "",
+      "parentName": "Basant Yadav",
+      "phone": "8102438366",
+      "email": "kinep82358@aspensif.com",
+      "address": "lal lajpath nager argora",
+      "additionalInfo": "",
+      "aadharNumber": "123456789123",
+      "photo": "1780815632564-580546190-WhatsApp_Image_2026-06-06_at_6.17.38_PM__1_.jpeg",
+      "city": "ranchi",
+      "district": "Ranchi",
+      "state": "Jharkhand",
+      "pinCode": "834004",
+      "category": "obc",
+      "fatherOccupation": "Driver",
+      "motherOccupation": "House Wife",
+      "nationality": "Indian",
+      "createdAt": "2026-06-07T07:00:32.593Z",
+      "updatedAt": "2026-06-07T07:00:32.597Z"
+    }
+  ],
+  "students": [
+    {
+      "id": "std-1001",
+      "legalName": "Aarav Kumar",
+      "admissionNo": "LBM-2023-1041",
+      "rollNo": "01",
+      "grade": "Class 10-A",
+      "academicSession": "2026–2027",
+      "dob": "2011-05-14",
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "house": "Tagore House (Red)",
+      "busRoute": "Route #4 (Giridih Town - Pachamba - Naitand)",
+      "lockerNo": "B-24",
+      "aadhaarMasked": "XXXX-XXXX-8921",
+      "fatherName": "Mr. Sunil Kumar",
+      "fatherOccupation": "Executive Civil Engineer",
+      "motherName": "Mrs. Anita Devi",
+      "motherOccupation": "High School Educator",
+      "primaryPhone": "+91 94313 78901",
+      "emergencyContact": "+91 98351 22419",
+      "email": "aarav.student@lbmdps.edu.in",
+      "parentEmail": "sunil.kumar.pwd@gmail.com",
+      "parentPhone": "+91 94313 78901",
+      "address": "H.No 42, Shanti Nagar, Near Jamua Road, Naitand, Giridih - 815318",
+      "classTeacher": "Mr. R.K. Sharma",
+      "subjects": [
+        {
+          "code": "041",
+          "name": "Mathematics",
+          "theoryMax": 80,
+          "theoryObt": 75,
+          "intMax": 20,
+          "intObt": 19,
+          "total": 94,
+          "grade": "A1",
+          "remarks": "Exceptional mathematical rigor"
+        },
+        {
+          "code": "086",
+          "name": "Science",
+          "theoryMax": 80,
+          "theoryObt": 76,
+          "intMax": 20,
+          "intObt": 20,
+          "total": 96,
+          "grade": "A1",
+          "remarks": "Outstanding analytical & lab skills"
+        },
+        {
+          "code": "184",
+          "name": "English Communicative",
+          "theoryMax": 80,
+          "theoryObt": 72,
+          "intMax": 20,
+          "intObt": 19,
+          "total": 91,
+          "grade": "A1",
+          "remarks": "Eloquent prose and rich vocabulary"
+        },
+        {
+          "code": "002",
+          "name": "Hindi Course-A",
+          "theoryMax": 80,
+          "theoryObt": 74,
+          "intMax": 20,
+          "intObt": 18,
+          "total": 92,
+          "grade": "A1",
+          "remarks": "Neat calligraphy & strong grammar"
+        },
+        {
+          "code": "087",
+          "name": "Social Science",
+          "theoryMax": 80,
+          "theoryObt": 75,
+          "intMax": 20,
+          "intObt": 19,
+          "total": 94,
+          "grade": "A1",
+          "remarks": "Deep grasp of historical timeline"
+        },
+        {
+          "code": "165",
+          "name": "Computer Applications",
+          "theoryMax": 50,
+          "theoryObt": 48,
+          "intMax": 50,
+          "intObt": 50,
+          "total": 98,
+          "grade": "A1",
+          "remarks": "First class programming capabilities"
+        }
+      ],
+      "createdAt": "2023-04-10T10:00:00.000Z"
+    },
+    {
+      "id": "std-1002",
+      "legalName": "Ananya Kumar",
+      "admissionNo": "LBM-2025-0614",
+      "rollNo": "14",
+      "grade": "Class 6-B",
+      "academicSession": "2026–2027",
+      "dob": "2015-08-22",
+      "gender": "Female",
+      "bloodGroup": "O+",
+      "house": "Ashoka House (Green)",
+      "busRoute": "Route #4 (Giridih Town - Pachamba - Naitand)",
+      "lockerNo": "M-12",
+      "aadhaarMasked": "XXXX-XXXX-4412",
+      "fatherName": "Mr. Sunil Kumar",
+      "fatherOccupation": "Executive Civil Engineer",
+      "motherName": "Mrs. Anita Devi",
+      "motherOccupation": "High School Educator",
+      "primaryPhone": "+91 94313 78901",
+      "emergencyContact": "+91 98351 22419",
+      "email": "ananya.student@lbmdps.edu.in",
+      "parentEmail": "sunil.kumar.pwd@gmail.com",
+      "parentPhone": "+91 94313 78901",
+      "address": "H.No 42, Shanti Nagar, Near Jamua Road, Naitand, Giridih - 815318",
+      "classTeacher": "Mrs. Vandana Kumari",
+      "subjects": [
+        {
+          "code": "041",
+          "name": "Mathematics",
+          "theoryMax": 80,
+          "theoryObt": 70,
+          "intMax": 20,
+          "intObt": 18,
+          "total": 88,
+          "grade": "A2",
+          "remarks": "Practicing fractions and algebra daily"
+        },
+        {
+          "code": "086",
+          "name": "General Science",
+          "theoryMax": 80,
+          "theoryObt": 75,
+          "intMax": 20,
+          "intObt": 19,
+          "total": 94,
+          "grade": "A1",
+          "remarks": "Loves nature & science experiments"
+        },
+        {
+          "code": "184",
+          "name": "English Literature",
+          "theoryMax": 80,
+          "theoryObt": 74,
+          "intMax": 20,
+          "intObt": 19,
+          "total": 93,
+          "grade": "A1",
+          "remarks": "Enthusiastic reader and story writer"
+        },
+        {
+          "code": "002",
+          "name": "Hindi Vyakaran",
+          "theoryMax": 80,
+          "theoryObt": 72,
+          "intMax": 20,
+          "intObt": 18,
+          "total": 90,
+          "grade": "A1",
+          "remarks": "Neat handwriting and spelling"
+        },
+        {
+          "code": "087",
+          "name": "Social Studies",
+          "theoryMax": 80,
+          "theoryObt": 71,
+          "intMax": 20,
+          "intObt": 18,
+          "total": 89,
+          "grade": "A2",
+          "remarks": "Good understanding of maps & states"
+        },
+        {
+          "code": "165",
+          "name": "General Knowledge & Art",
+          "theoryMax": 50,
+          "theoryObt": 47,
+          "intMax": 50,
+          "intObt": 49,
+          "total": 96,
+          "grade": "A1",
+          "remarks": "Talented in sketching and painting"
+        }
+      ],
+      "createdAt": "2025-04-12T10:00:00.000Z"
+    }
+  ],
+  "parents": [
+    {
+      "id": "par-5001",
+      "username": "parent",
+      "fatherName": "Mr. Sunil Kumar",
+      "fatherOccupation": "Executive Civil Engineer (PWD Giridih)",
+      "motherName": "Mrs. Anita Devi",
+      "motherOccupation": "High School Educator",
+      "primaryPhone": "+91 94313 78901",
+      "email": "sunil.kumar.pwd@gmail.com",
+      "address": "H.No 42, Shanti Nagar, Near Jamua Road, Naitand, Giridih - 815318",
+      "verifiedParentId": "PAR-2023-7749",
+      "linkedStudentAdmissionNos": [
+        "LBM-2023-1041",
+        "LBM-2025-0614"
+      ],
+      "createdAt": "2023-04-10T10:00:00.000Z"
+    }
+  ],
+  "staff": [
+    {
+      "id": "stf-01",
+      "username": "teacher",
+      "fullName": "Mr. R.K. Sharma",
+      "subject": "Senior Mathematics",
+      "department": "Academic Faculty",
+      "designation": "Senior Faculty / PGT Math",
+      "assignedClasses": [
+        "Class 10-A",
+        "Class 10-B"
+      ],
+      "phone": "+91 94313 11223",
+      "email": "rk.sharma@lbmdps.edu.in",
+      "status": "Active",
+      "provisionedBy": "superadmin",
+      "createdAt": "2024-06-01T09:00:00.000Z"
+    },
+    {
+      "id": "stf-02",
+      "username": "tch_sunitadevi",
+      "fullName": "Mrs. Sunita Devi",
+      "subject": "General Science",
+      "department": "Science & Physics Lab",
+      "designation": "TGT Science Incharge",
+      "assignedClasses": [
+        "Class 9-A",
+        "Class 10-A"
+      ],
+      "phone": "+91 94313 44556",
+      "email": "sunita.devi@lbmdps.edu.in",
+      "status": "Active",
+      "provisionedBy": "superadmin",
+      "createdAt": "2024-06-05T09:00:00.000Z"
+    }
+  ],
+  "crmLeads": [
+    {
+      "leadId": "CRM-27619",
+      "source": "AI_CHATBOT_24_7",
+      "parentName": "nitish",
+      "phone": "8102438366",
+      "email": "N/A",
+      "targetClass": "Class 1",
+      "intentCategory": "Direct Enrollment & Callback Request",
+      "query": "Direct Callback Request from AI Chatbot for Class 1. Parent: nitish",
+      "transcriptSnippet": "Parent nitish requested callback for Class 1. Phone: 8102438366",
+      "priority": "HIGH",
+      "status": "New Lead",
+      "alertTriggered": true,
+      "alertMessage": "🚨 New Prospective Admission Lead (Direct Enrollment & Callback Request): nitish (8102438366)",
+      "createdAt": "2026-11-02T06:47:19.021Z"
+    },
+    {
+      "leadId": "CRM-55269",
+      "source": "AI_CHATBOT_24_7",
+      "parentName": "Prospective Parent",
+      "phone": "Phone Not Shared",
+      "email": "N/A",
+      "targetClass": "Class 1",
+      "intentCategory": "General Academic Inquiry",
+      "query": "hii",
+      "transcriptSnippet": "Visitor Query: \"hii\" | Intent: General Academic Inquiry | AI: Fallback",
+      "priority": "MEDIUM",
+      "status": "New Lead",
+      "alertTriggered": true,
+      "alertMessage": "🚨 New Prospective Admission Lead (General Academic Inquiry): Parent (Web Visitor)",
+      "createdAt": "2026-11-02T06:32:41.874Z"
+    },
+    {
+      "leadId": "CRM-13619",
+      "source": "AI_CHATBOT_24_7",
+      "parentName": "Prospective Parent",
+      "phone": "Phone Not Shared",
+      "email": "N/A",
+      "targetClass": "Class 1",
+      "intentCategory": "General Academic Inquiry",
+      "query": "how to join your school",
+      "transcriptSnippet": "Visitor Query: \"how to join your school\" | Intent: General Academic Inquiry | AI: Fallback",
+      "priority": "MEDIUM",
+      "status": "New Lead",
+      "alertTriggered": true,
+      "alertMessage": "🚨 New Prospective Admission Lead (General Academic Inquiry): Parent (Web Visitor)",
+      "createdAt": "2026-11-02T06:14:04.338Z"
+    },
+    {
+      "leadId": "CRM-74689",
+      "source": "AI_CHATBOT_24_7",
+      "parentName": "Prospective Parent",
+      "phone": "Phone Not Shared",
+      "email": "N/A",
+      "targetClass": "Class 1",
+      "intentCategory": "General Academic Inquiry",
+      "query": "hii",
+      "transcriptSnippet": "Visitor Query: \"hii\" | Intent: General Academic Inquiry | AI: Fallback",
+      "priority": "MEDIUM",
+      "status": "New Lead",
+      "alertTriggered": true,
+      "alertMessage": "🚨 New Prospective Admission Lead (General Academic Inquiry): Parent (Web Visitor)",
+      "createdAt": "2026-11-02T06:13:25.437Z"
+    },
+    {
+      "leadId": "CRM-67293",
+      "source": "AI_CHATBOT_24_7",
+      "parentName": "Prospective Parent",
+      "phone": "Phone Not Shared",
+      "email": "N/A",
+      "targetClass": "Class 1",
+      "intentCategory": "General Academic Inquiry",
+      "query": "your school timing",
+      "transcriptSnippet": "Visitor Query: \"your school timing\" | Intent: General Academic Inquiry | AI: Fallback",
+      "priority": "MEDIUM",
+      "status": "New Lead",
+      "alertTriggered": true,
+      "alertMessage": "🚨 New Prospective Admission Lead (General Academic Inquiry): Parent (Web Visitor)",
+      "createdAt": "2026-11-02T06:11:11.554Z"
+    },
+    {
+      "leadId": "CRM-31919",
+      "source": "AI_CHATBOT_24_7",
+      "parentName": "Prospective Parent",
+      "phone": "Phone Not Shared",
+      "email": "N/A",
+      "targetClass": "Class 1",
+      "intentCategory": "Direct Enrollment & Document Support",
+      "query": "admission process",
+      "transcriptSnippet": "Visitor Query: \"admission process\" | Intent: Direct Enrollment & Document Support | AI: Fallback",
+      "priority": "MEDIUM",
+      "status": "New Lead",
+      "alertTriggered": true,
+      "alertMessage": "🚨 New Prospective Admission Lead (Direct Enrollment & Document Support): Parent (Web Visitor)",
+      "createdAt": "2026-11-02T06:10:37.236Z"
+    },
+    {
+      "leadId": "CRM-49933",
+      "source": "AI_CHATBOT_24_7",
+      "parentName": "Prospective Parent",
+      "phone": "Phone Not Shared",
+      "email": "N/A",
+      "targetClass": "Class 1",
+      "intentCategory": "General Academic Inquiry",
+      "query": "how to join your school",
+      "transcriptSnippet": "Visitor Query: \"how to join your school\" | Intent: General Academic Inquiry | AI: Fallback",
+      "priority": "MEDIUM",
+      "status": "New Lead",
+      "alertTriggered": true,
+      "alertMessage": "🚨 New Prospective Admission Lead (General Academic Inquiry): Parent (Web Visitor)",
+      "createdAt": "2026-11-02T06:09:47.803Z"
+    },
+    {
+      "leadId": "CRM-44546",
+      "source": "AI_CHATBOT_24_7",
+      "parentName": "Prospective Parent",
+      "phone": "Phone Not Shared",
+      "email": "N/A",
+      "targetClass": "Class 1",
+      "intentCategory": "Fee Structure & Installments",
+      "query": "💰 Fee Structure 2026–27",
+      "transcriptSnippet": "Visitor Query: \"💰 Fee Structure 2026–27\" | Intent: Fee Structure & Installments | AI: Fallback",
+      "priority": "MEDIUM",
+      "status": "New Lead",
+      "alertTriggered": true,
+      "alertMessage": "🚨 New Prospective Admission Lead (Fee Structure & Installments): Parent (Web Visitor)",
+      "createdAt": "2026-11-02T06:09:18.100Z"
+    },
+    {
+      "leadId": "CRM-73934",
+      "source": "AI_CHATBOT_24_7",
+      "parentName": "Prospective Parent",
+      "phone": "Phone Not Shared",
+      "email": "N/A",
+      "targetClass": "Class 1",
+      "intentCategory": "General Academic Inquiry",
+      "query": "hii",
+      "transcriptSnippet": "Visitor Query: \"hii\" | Intent: General Academic Inquiry | AI: Fallback",
+      "priority": "MEDIUM",
+      "status": "New Lead",
+      "alertTriggered": true,
+      "alertMessage": "🚨 New Prospective Admission Lead (General Academic Inquiry): Parent (Web Visitor)",
+      "createdAt": "2026-11-02T06:08:54.564Z"
+    },
+    {
+      "leadId": "CRM-10021",
+      "source": "AI_CHATBOT_24_7",
+      "parentName": "Manoj Kumar Gupta",
+      "phone": "+91 98351 99882",
+      "email": "manoj.gupta.giridih@gmail.com",
+      "targetClass": "Class 9",
+      "intentCategory": "Fee Inquiry & Installments",
+      "transcriptSnippet": "Parent inquired about Class 9 annual fees and computer lab installments.",
+      "priority": "HIGH",
+      "status": "New Lead",
+      "createdAt": "2026-10-31T14:30:00.000Z"
+    },
+    {
+      "leadId": "CRM-10022",
+      "source": "AI_CHATBOT_24_7",
+      "parentName": "Dr. Priya Murmu",
+      "phone": "+91 94701 55667",
+      "email": "priya.murmu.md@yahoo.com",
+      "targetClass": "Class 1",
+      "intentCategory": "Eligibility & Age Criteria",
+      "transcriptSnippet": "Parent checked minimum age eligibility for Class 1 admission 2026-27.",
+      "priority": "MEDIUM",
+      "status": "In Contact",
+      "createdAt": "2026-10-30T11:15:00.000Z"
+    }
+  ],
+  "attendanceLogs": [
+    {
+      "id": "att-log-aarav-1",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 1,
+      "status": "Present",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "att-log-aarav-2",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 2,
+      "status": "Present",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "att-log-aarav-3",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 3,
+      "status": "Present",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "att-log-aarav-4",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 4,
+      "status": "Present",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "att-log-aarav-5",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 5,
+      "status": "Present",
+      "date": "2026-06-06"
+    },
+    {
+      "id": "att-log-aarav-6",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 6,
+      "status": "Present",
+      "date": "2026-06-07"
+    },
+    {
+      "id": "att-log-aarav-7",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 7,
+      "status": "Present",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "att-log-aarav-8",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 8,
+      "status": "Present",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "att-log-aarav-9",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 9,
+      "status": "Present",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "att-log-aarav-10",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 10,
+      "status": "Present",
+      "date": "2026-06-11"
+    },
+    {
+      "id": "att-log-aarav-11",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 11,
+      "status": "Present",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "att-log-aarav-12",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 12,
+      "status": "Present",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "att-log-aarav-13",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 13,
+      "status": "Present",
+      "date": "2026-06-14"
+    },
+    {
+      "id": "att-log-aarav-14",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 14,
+      "status": "Absent",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "att-log-aarav-15",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 15,
+      "status": "Present",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "att-log-aarav-16",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 16,
+      "status": "Present",
+      "date": "2026-06-17"
+    },
+    {
+      "id": "att-log-aarav-17",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 17,
+      "status": "Present",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "att-log-aarav-18",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 18,
+      "status": "Present",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "att-log-aarav-19",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 19,
+      "status": "Present",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "att-log-aarav-20",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 20,
+      "status": "Present",
+      "date": "2026-06-21"
+    },
+    {
+      "id": "att-log-aarav-21",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 21,
+      "status": "Present",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "att-log-aarav-22",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 22,
+      "status": "Present",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "att-log-aarav-23",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 23,
+      "status": "Present",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "att-log-aarav-24",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 24,
+      "status": "Present",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "att-log-aarav-25",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 25,
+      "status": "Present",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "att-log-aarav-26",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 26,
+      "status": "Present",
+      "date": "2026-06-27"
+    },
+    {
+      "id": "att-log-aarav-27",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 27,
+      "status": "Present",
+      "date": "2026-06-28"
+    },
+    {
+      "id": "att-log-aarav-28",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 28,
+      "status": "Present",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "att-log-aarav-29",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 29,
+      "status": "Present",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "att-log-aarav-30",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 30,
+      "status": "Present",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "att-log-aarav-31",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 31,
+      "status": "Present",
+      "date": "2026-07-04"
+    },
+    {
+      "id": "att-log-aarav-32",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 32,
+      "status": "Present",
+      "date": "2026-07-05"
+    },
+    {
+      "id": "att-log-aarav-33",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 33,
+      "status": "Present",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "att-log-aarav-34",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 34,
+      "status": "Present",
+      "date": "2026-07-07"
+    },
+    {
+      "id": "att-log-aarav-35",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 35,
+      "status": "Present",
+      "date": "2026-07-08"
+    },
+    {
+      "id": "att-log-aarav-36",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 36,
+      "status": "Present",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "att-log-aarav-37",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 37,
+      "status": "Present",
+      "date": "2026-07-10"
+    },
+    {
+      "id": "att-log-aarav-38",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 38,
+      "status": "Absent",
+      "date": "2026-07-11"
+    },
+    {
+      "id": "att-log-aarav-39",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 39,
+      "status": "Present",
+      "date": "2026-07-12"
+    },
+    {
+      "id": "att-log-aarav-40",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 40,
+      "status": "Present",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "att-log-aarav-41",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 41,
+      "status": "Present",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "att-log-aarav-42",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 42,
+      "status": "Present",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "att-log-aarav-43",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 43,
+      "status": "Present",
+      "date": "2026-07-16"
+    },
+    {
+      "id": "att-log-aarav-44",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 44,
+      "status": "Present",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "att-log-aarav-45",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 45,
+      "status": "Present",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "att-log-aarav-46",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 46,
+      "status": "Present",
+      "date": "2026-07-19"
+    },
+    {
+      "id": "att-log-aarav-47",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 47,
+      "status": "Present",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "att-log-aarav-48",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 48,
+      "status": "Present",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "att-log-aarav-49",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 49,
+      "status": "Present",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "att-log-aarav-50",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 50,
+      "status": "Present",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "att-log-aarav-51",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 51,
+      "status": "Present",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "att-log-aarav-52",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 52,
+      "status": "Present",
+      "date": "2026-07-25"
+    },
+    {
+      "id": "att-log-aarav-53",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 53,
+      "status": "Present",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "att-log-aarav-54",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 54,
+      "status": "Present",
+      "date": "2026-07-27"
+    },
+    {
+      "id": "att-log-aarav-55",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 55,
+      "status": "Present",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "att-log-aarav-56",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 56,
+      "status": "Present",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "att-log-aarav-57",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 57,
+      "status": "Present",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "att-log-aarav-58",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 58,
+      "status": "Present",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "att-log-aarav-59",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 59,
+      "status": "Present",
+      "date": "2026-07-04"
+    },
+    {
+      "id": "att-log-aarav-60",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 60,
+      "status": "Present",
+      "date": "2026-08-05"
+    },
+    {
+      "id": "att-log-aarav-61",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 61,
+      "status": "Present",
+      "date": "2026-08-06"
+    },
+    {
+      "id": "att-log-aarav-62",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 62,
+      "status": "Absent",
+      "date": "2026-08-07"
+    },
+    {
+      "id": "att-log-aarav-63",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 63,
+      "status": "Present",
+      "date": "2026-08-08"
+    },
+    {
+      "id": "att-log-aarav-64",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 64,
+      "status": "Present",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "att-log-aarav-65",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 65,
+      "status": "Present",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "att-log-aarav-66",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 66,
+      "status": "Present",
+      "date": "2026-08-11"
+    },
+    {
+      "id": "att-log-aarav-67",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 67,
+      "status": "Present",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "att-log-aarav-68",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 68,
+      "status": "Present",
+      "date": "2026-08-13"
+    },
+    {
+      "id": "att-log-aarav-69",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 69,
+      "status": "Present",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "att-log-aarav-70",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 70,
+      "status": "Present",
+      "date": "2026-08-15"
+    },
+    {
+      "id": "att-log-aarav-71",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 71,
+      "status": "Present",
+      "date": "2026-08-16"
+    },
+    {
+      "id": "att-log-aarav-72",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 72,
+      "status": "Present",
+      "date": "2026-08-17"
+    },
+    {
+      "id": "att-log-aarav-73",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 73,
+      "status": "Present",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "att-log-aarav-74",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 74,
+      "status": "Present",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "att-log-aarav-75",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 75,
+      "status": "Present",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "att-log-aarav-76",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 76,
+      "status": "Present",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "att-log-aarav-77",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 77,
+      "status": "Present",
+      "date": "2026-08-22"
+    },
+    {
+      "id": "att-log-aarav-78",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 78,
+      "status": "Present",
+      "date": "2026-08-23"
+    },
+    {
+      "id": "att-log-aarav-79",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 79,
+      "status": "Present",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "att-log-aarav-80",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 80,
+      "status": "Present",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "att-log-aarav-81",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 81,
+      "status": "Present",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "att-log-aarav-82",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 82,
+      "status": "Present",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "att-log-aarav-83",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 83,
+      "status": "Present",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "att-log-aarav-84",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 84,
+      "status": "Present",
+      "date": "2026-08-01"
+    },
+    {
+      "id": "att-log-aarav-85",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 85,
+      "status": "Absent",
+      "date": "2026-08-02"
+    },
+    {
+      "id": "att-log-aarav-86",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 86,
+      "status": "Present",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "att-log-aarav-87",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 87,
+      "status": "Present",
+      "date": "2026-08-04"
+    },
+    {
+      "id": "att-log-aarav-88",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 88,
+      "status": "Present",
+      "date": "2026-08-05"
+    },
+    {
+      "id": "att-log-aarav-89",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 89,
+      "status": "Present",
+      "date": "2026-08-06"
+    },
+    {
+      "id": "att-log-aarav-90",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 90,
+      "status": "Present",
+      "date": "2026-09-07"
+    },
+    {
+      "id": "att-log-aarav-91",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 91,
+      "status": "Present",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "att-log-aarav-92",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 92,
+      "status": "Present",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "att-log-aarav-93",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 93,
+      "status": "Present",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "att-log-aarav-94",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 94,
+      "status": "Present",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "att-log-aarav-95",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 95,
+      "status": "Present",
+      "date": "2026-09-12"
+    },
+    {
+      "id": "att-log-aarav-96",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 96,
+      "status": "Present",
+      "date": "2026-09-13"
+    },
+    {
+      "id": "att-log-aarav-97",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 97,
+      "status": "Present",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "att-log-aarav-98",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 98,
+      "status": "Present",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "att-log-aarav-99",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 99,
+      "status": "Absent",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "att-log-aarav-100",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 100,
+      "status": "Present",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "att-log-aarav-101",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 101,
+      "status": "Present",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "att-log-aarav-102",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 102,
+      "status": "Present",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "att-log-aarav-103",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 103,
+      "status": "Present",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "att-log-aarav-104",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 104,
+      "status": "Present",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "att-log-aarav-105",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 105,
+      "status": "Present",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "att-log-aarav-106",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 106,
+      "status": "Present",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "att-log-aarav-107",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 107,
+      "status": "Absent",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "att-log-aarav-108",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 108,
+      "status": "Present",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "att-log-aarav-109",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 109,
+      "status": "Present",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "att-log-aarav-110",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 110,
+      "status": "Present",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "att-log-aarav-111",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 111,
+      "status": "Present",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "att-log-aarav-112",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 112,
+      "status": "Present",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "att-log-aarav-113",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 113,
+      "status": "Present",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "att-log-aarav-114",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 114,
+      "status": "Present",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "att-log-aarav-115",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 115,
+      "status": "Present",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "att-log-aarav-116",
+      "admissionNo": "LBM-2023-1041",
+      "dayNumber": 116,
+      "status": "Present",
+      "date": "2026-09-05"
+    },
+    {
+      "id": "att-log-ananya-1",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 1,
+      "status": "Present",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "att-log-ananya-2",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 2,
+      "status": "Present",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "att-log-ananya-3",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 3,
+      "status": "Present",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "att-log-ananya-4",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 4,
+      "status": "Present",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "att-log-ananya-5",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 5,
+      "status": "Present",
+      "date": "2026-06-06"
+    },
+    {
+      "id": "att-log-ananya-6",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 6,
+      "status": "Present",
+      "date": "2026-06-07"
+    },
+    {
+      "id": "att-log-ananya-7",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 7,
+      "status": "Present",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "att-log-ananya-8",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 8,
+      "status": "Present",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "att-log-ananya-9",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 9,
+      "status": "Present",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "att-log-ananya-10",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 10,
+      "status": "Present",
+      "date": "2026-06-11"
+    },
+    {
+      "id": "att-log-ananya-11",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 11,
+      "status": "Present",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "att-log-ananya-12",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 12,
+      "status": "Present",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "att-log-ananya-13",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 13,
+      "status": "Present",
+      "date": "2026-06-14"
+    },
+    {
+      "id": "att-log-ananya-14",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 14,
+      "status": "Present",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "att-log-ananya-15",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 15,
+      "status": "Present",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "att-log-ananya-16",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 16,
+      "status": "Present",
+      "date": "2026-06-17"
+    },
+    {
+      "id": "att-log-ananya-17",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 17,
+      "status": "Present",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "att-log-ananya-18",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 18,
+      "status": "Present",
+      "date": "2026-06-19"
+    },
+    {
+      "id": "att-log-ananya-19",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 19,
+      "status": "Present",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "att-log-ananya-20",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 20,
+      "status": "Present",
+      "date": "2026-06-21"
+    },
+    {
+      "id": "att-log-ananya-21",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 21,
+      "status": "Present",
+      "date": "2026-06-22"
+    },
+    {
+      "id": "att-log-ananya-22",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 22,
+      "status": "Absent",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "att-log-ananya-23",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 23,
+      "status": "Present",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "att-log-ananya-24",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 24,
+      "status": "Present",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "att-log-ananya-25",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 25,
+      "status": "Present",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "att-log-ananya-26",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 26,
+      "status": "Present",
+      "date": "2026-06-27"
+    },
+    {
+      "id": "att-log-ananya-27",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 27,
+      "status": "Present",
+      "date": "2026-06-28"
+    },
+    {
+      "id": "att-log-ananya-28",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 28,
+      "status": "Present",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "att-log-ananya-29",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 29,
+      "status": "Present",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "att-log-ananya-30",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 30,
+      "status": "Present",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "att-log-ananya-31",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 31,
+      "status": "Present",
+      "date": "2026-07-04"
+    },
+    {
+      "id": "att-log-ananya-32",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 32,
+      "status": "Present",
+      "date": "2026-07-05"
+    },
+    {
+      "id": "att-log-ananya-33",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 33,
+      "status": "Present",
+      "date": "2026-07-06"
+    },
+    {
+      "id": "att-log-ananya-34",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 34,
+      "status": "Present",
+      "date": "2026-07-07"
+    },
+    {
+      "id": "att-log-ananya-35",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 35,
+      "status": "Present",
+      "date": "2026-07-08"
+    },
+    {
+      "id": "att-log-ananya-36",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 36,
+      "status": "Present",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "att-log-ananya-37",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 37,
+      "status": "Present",
+      "date": "2026-07-10"
+    },
+    {
+      "id": "att-log-ananya-38",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 38,
+      "status": "Present",
+      "date": "2026-07-11"
+    },
+    {
+      "id": "att-log-ananya-39",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 39,
+      "status": "Present",
+      "date": "2026-07-12"
+    },
+    {
+      "id": "att-log-ananya-40",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 40,
+      "status": "Present",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "att-log-ananya-41",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 41,
+      "status": "Present",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "att-log-ananya-42",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 42,
+      "status": "Present",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "att-log-ananya-43",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 43,
+      "status": "Present",
+      "date": "2026-07-16"
+    },
+    {
+      "id": "att-log-ananya-44",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 44,
+      "status": "Present",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "att-log-ananya-45",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 45,
+      "status": "Present",
+      "date": "2026-07-18"
+    },
+    {
+      "id": "att-log-ananya-46",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 46,
+      "status": "Present",
+      "date": "2026-07-19"
+    },
+    {
+      "id": "att-log-ananya-47",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 47,
+      "status": "Present",
+      "date": "2026-07-20"
+    },
+    {
+      "id": "att-log-ananya-48",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 48,
+      "status": "Present",
+      "date": "2026-07-21"
+    },
+    {
+      "id": "att-log-ananya-49",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 49,
+      "status": "Present",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "att-log-ananya-50",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 50,
+      "status": "Present",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "att-log-ananya-51",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 51,
+      "status": "Present",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "att-log-ananya-52",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 52,
+      "status": "Present",
+      "date": "2026-07-25"
+    },
+    {
+      "id": "att-log-ananya-53",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 53,
+      "status": "Present",
+      "date": "2026-07-26"
+    },
+    {
+      "id": "att-log-ananya-54",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 54,
+      "status": "Absent",
+      "date": "2026-07-27"
+    },
+    {
+      "id": "att-log-ananya-55",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 55,
+      "status": "Present",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "att-log-ananya-56",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 56,
+      "status": "Present",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "att-log-ananya-57",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 57,
+      "status": "Present",
+      "date": "2026-07-02"
+    },
+    {
+      "id": "att-log-ananya-58",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 58,
+      "status": "Present",
+      "date": "2026-07-03"
+    },
+    {
+      "id": "att-log-ananya-59",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 59,
+      "status": "Present",
+      "date": "2026-07-04"
+    },
+    {
+      "id": "att-log-ananya-60",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 60,
+      "status": "Present",
+      "date": "2026-08-05"
+    },
+    {
+      "id": "att-log-ananya-61",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 61,
+      "status": "Present",
+      "date": "2026-08-06"
+    },
+    {
+      "id": "att-log-ananya-62",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 62,
+      "status": "Present",
+      "date": "2026-08-07"
+    },
+    {
+      "id": "att-log-ananya-63",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 63,
+      "status": "Present",
+      "date": "2026-08-08"
+    },
+    {
+      "id": "att-log-ananya-64",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 64,
+      "status": "Present",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "att-log-ananya-65",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 65,
+      "status": "Present",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "att-log-ananya-66",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 66,
+      "status": "Present",
+      "date": "2026-08-11"
+    },
+    {
+      "id": "att-log-ananya-67",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 67,
+      "status": "Present",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "att-log-ananya-68",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 68,
+      "status": "Present",
+      "date": "2026-08-13"
+    },
+    {
+      "id": "att-log-ananya-69",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 69,
+      "status": "Present",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "att-log-ananya-70",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 70,
+      "status": "Present",
+      "date": "2026-08-15"
+    },
+    {
+      "id": "att-log-ananya-71",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 71,
+      "status": "Present",
+      "date": "2026-08-16"
+    },
+    {
+      "id": "att-log-ananya-72",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 72,
+      "status": "Present",
+      "date": "2026-08-17"
+    },
+    {
+      "id": "att-log-ananya-73",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 73,
+      "status": "Present",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "att-log-ananya-74",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 74,
+      "status": "Present",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "att-log-ananya-75",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 75,
+      "status": "Present",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "att-log-ananya-76",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 76,
+      "status": "Present",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "att-log-ananya-77",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 77,
+      "status": "Present",
+      "date": "2026-08-22"
+    },
+    {
+      "id": "att-log-ananya-78",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 78,
+      "status": "Present",
+      "date": "2026-08-23"
+    },
+    {
+      "id": "att-log-ananya-79",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 79,
+      "status": "Present",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "att-log-ananya-80",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 80,
+      "status": "Present",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "att-log-ananya-81",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 81,
+      "status": "Present",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "att-log-ananya-82",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 82,
+      "status": "Present",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "att-log-ananya-83",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 83,
+      "status": "Present",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "att-log-ananya-84",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 84,
+      "status": "Present",
+      "date": "2026-08-01"
+    },
+    {
+      "id": "att-log-ananya-85",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 85,
+      "status": "Present",
+      "date": "2026-08-02"
+    },
+    {
+      "id": "att-log-ananya-86",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 86,
+      "status": "Present",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "att-log-ananya-87",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 87,
+      "status": "Present",
+      "date": "2026-08-04"
+    },
+    {
+      "id": "att-log-ananya-88",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 88,
+      "status": "Absent",
+      "date": "2026-08-05"
+    },
+    {
+      "id": "att-log-ananya-89",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 89,
+      "status": "Present",
+      "date": "2026-08-06"
+    },
+    {
+      "id": "att-log-ananya-90",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 90,
+      "status": "Present",
+      "date": "2026-09-07"
+    },
+    {
+      "id": "att-log-ananya-91",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 91,
+      "status": "Present",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "att-log-ananya-92",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 92,
+      "status": "Present",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "att-log-ananya-93",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 93,
+      "status": "Present",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "att-log-ananya-94",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 94,
+      "status": "Present",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "att-log-ananya-95",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 95,
+      "status": "Present",
+      "date": "2026-09-12"
+    },
+    {
+      "id": "att-log-ananya-96",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 96,
+      "status": "Present",
+      "date": "2026-09-13"
+    },
+    {
+      "id": "att-log-ananya-97",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 97,
+      "status": "Present",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "att-log-ananya-98",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 98,
+      "status": "Present",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "att-log-ananya-99",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 99,
+      "status": "Present",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "att-log-ananya-100",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 100,
+      "status": "Present",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "att-log-ananya-101",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 101,
+      "status": "Present",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "att-log-ananya-102",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 102,
+      "status": "Absent",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "att-log-ananya-103",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 103,
+      "status": "Present",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "att-log-ananya-104",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 104,
+      "status": "Present",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "att-log-ananya-105",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 105,
+      "status": "Present",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "att-log-ananya-106",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 106,
+      "status": "Present",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "att-log-ananya-107",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 107,
+      "status": "Present",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "att-log-ananya-108",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 108,
+      "status": "Present",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "att-log-ananya-109",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 109,
+      "status": "Present",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "att-log-ananya-110",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 110,
+      "status": "Present",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "att-log-ananya-111",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 111,
+      "status": "Present",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "att-log-ananya-112",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 112,
+      "status": "Present",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "att-log-ananya-113",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 113,
+      "status": "Present",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "att-log-ananya-114",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 114,
+      "status": "Present",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "att-log-ananya-115",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 115,
+      "status": "Present",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "att-log-ananya-116",
+      "admissionNo": "LBM-2025-0614",
+      "dayNumber": 116,
+      "status": "Present",
+      "date": "2026-09-05"
+    }
+  ],
+  "feeLedger": [
+    {
+      "receiptNo": "REC-23987",
+      "admissionNo": "LBM-2023-1041",
+      "studentName": "Aarav Kumar",
+      "className": "Class 10-A",
+      "billingHead": "Quarter 3 Tuition & Transport Fee Settlement",
+      "amount": 1850,
+      "paidAmount": 1850,
+      "dueAmount": 0,
+      "paymentMode": "Instant UPI / QR Portal",
+      "txnRef": "ONLINE-UPI-615490",
+      "status": "Verified & Cleared",
+      "date": "2026-11-03"
+    },
+    {
+      "receiptNo": "REC-74912",
+      "admissionNo": "LBM-2023-1041",
+      "studentName": "Aarav Kumar",
+      "className": "Class 10-A",
+      "billingHead": "Quarter 2 Tuition & Smart Class Charges",
+      "amount": 3850,
+      "paidAmount": 3850,
+      "dueAmount": 0,
+      "paymentMode": "UPI / PhonePe",
+      "txnRef": "UPI-983104-LBMDPS",
+      "status": "Verified & Cleared",
+      "date": "2026-10-10"
+    },
+    {
+      "receiptNo": "REC-68194",
+      "admissionNo": "LBM-2025-0614",
+      "studentName": "Ananya Kumar",
+      "className": "Class 6-B",
+      "billingHead": "Quarter 2 Tuition & Activities Fee",
+      "amount": 3250,
+      "paidAmount": 3250,
+      "dueAmount": 0,
+      "paymentMode": "Net Banking / HDFC",
+      "txnRef": "NEFT-551940-LBM",
+      "status": "Verified & Cleared",
+      "date": "2026-10-10"
+    },
+    {
+      "receiptNo": "REC-51208",
+      "admissionNo": "LBM-2023-1041",
+      "studentName": "Aarav Kumar",
+      "className": "Class 10-A",
+      "billingHead": "Quarter 1 Composite School & Lab Fee",
+      "amount": 4500,
+      "paidAmount": 4500,
+      "dueAmount": 0,
+      "paymentMode": "Counter Cash Desk",
+      "txnRef": "CASH-COUNTER-01",
+      "status": "Verified & Cleared",
+      "date": "2026-07-08"
+    }
+  ],
+  "dispatches": []
+}

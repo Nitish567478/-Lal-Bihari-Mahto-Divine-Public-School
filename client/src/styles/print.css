@@ -1,0 +1,130 @@
+/* Shared print layout for every authenticated dashboard. Keep this imported
+   after page styles so it can override dashboard shells that trap scrolling. */
+@media print {
+  @page {
+    size: auto;
+    margin: 12mm;
+  }
+
+  html,
+  body,
+  #root {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    background: #fff !important;
+  }
+
+  body,
+  body * {
+    visibility: visible !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .no-print,
+  .portal-sidebar,
+  .portal-sidebar-backdrop,
+  .portal-topbar,
+  .teach-sidebar,
+  .teach-topbar,
+  .student-sidebar,
+  .student-sidebar-scrim,
+  .student-top-navbar,
+  .student-demo-banner,
+  .parent-sidebar,
+  .parent-top-navbar,
+  .multi-child-selector-bar,
+  .parent-demo-banner,
+  .acc-sidebar,
+  .acc-topbar,
+  .modal-actions-bar {
+    display: none !important;
+  }
+
+  .admin-portal,
+  .portal-main,
+  .teacher-portal-layout,
+  .teach-main,
+  .student-portal-wrapper,
+  .student-dashboard-body,
+  .student-main-content,
+  .parent-dashboard-body,
+  .parent-main-content,
+  .accountant-portal-layout,
+  .acc-main {
+    position: static !important;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    transform: none !important;
+    box-shadow: none !important;
+    background: #fff !important;
+  }
+
+  main,
+  section,
+  article,
+  .tab-pane-container,
+  .printable-content,
+  .print-area,
+  .report-printable-area,
+  .test-paper-printable-area,
+  .receipt-printable-area {
+    max-height: none !important;
+    overflow: visible !important;
+    break-inside: auto;
+  }
+
+  .student-modal-overlay,
+  .parent-modal-overlay,
+  .receipt-modal-overlay {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    background: transparent !important;
+  }
+
+  .student-modal-content,
+  .parent-modal-content,
+  .receipt-modal-card {
+    width: 100% !important;
+    max-width: none !important;
+    max-height: none !important;
+    overflow: visible !important;
+    box-shadow: none !important;
+  }
+
+  .portal-sidebar-toggle-btn,
+  .teach-sidebar-toggle,
+  .acc-sidebar-toggle {
+    display: none !important;
+  }
+
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+  }
+
+  tr,
+  img,
+  .receipt-printable-area,
+  .report-printable-area,
+  .test-paper-printable-area {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+}

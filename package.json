@@ -1,0 +1,28 @@
+{
+  "name": "my-school-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lal Bihari Mahto Divine Public School (LBMDPS) - Comprehensive School Management System",
+  "scripts": {
+    "start": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"npm run start:server\" \"npm run start:client\"",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"npm run dev:server\" \"npm run start:client\"",
+    "start:client": "npm --prefix client start",
+    "start:server": "npm --prefix server start",
+    "dev:server": "npm --prefix server run dev",
+    "build": "npm --prefix client run build",
+    "build:client": "npm --prefix client run build",
+    "install:all": "npm --prefix client install && npm --prefix server install"
+  },
+  "keywords": [
+    "school-management-system",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "LBMDPS",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
